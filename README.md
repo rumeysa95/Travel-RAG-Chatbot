@@ -1,6 +1,6 @@
 # Türkiye Seyahat Rehberi Chatbot Projesi (RAG Tabanlı)
 
-**Geliştiren:** [Kullanıcı Adınız]
+**Geliştiren:** rumeysa95
 
 ## 1. Projenin Amacı
 
@@ -29,18 +29,19 @@ Proje, **LangChain** kütüphanesi üzerine kurulmuş standart bir RAG mimarisin
 
 ## 4. Elde Edilen Sonuçlar
 
-* **Başarı:** RAG mimarisi sayesinde, chatbot, yalnızca kendisine iletilen seyahat bilgilerini doğrudan doğru ve tutarlı yanıtlar üretebilmektedir.
-* **Örnek:** Chatbot'a sorulan bir soru ("Antalya'da tahinli sos ile yapılan meşhur yöresel yemek nedir?") için, RAG sistemi ilgili kaynak metin parçasını bulup (piyaz bilgisi) cevap üretme aşamasına geçer.
-* **Hata Kontrolü:** Modelin, rehberde olmayan sorulara ("Uzay boşluğu ne kadar büyük?") cevap vermekten kaçınması sağlanmıştır.
+* **Başarı:** RAG mimarisi sayesinde, chatbot, yalnızca kendisine iletilen seyahat bilgilerini doğrudan doğru ve eksiksiz yanıtlar üretebilmektedir.
+* **Örnek:** Chatbot'a sorulan bir soru ("Antalya'da tahinli sos ile yapılan ünlü yöresel yemek nedir?") için, RAG ilgili kaynak metin parçasını bulur (piyaz bilgisi) ve cevap üretme aşamasına geçer.
+* **Hata Kontrolü:** Modelin, rehberde olmayan sorulara ("Uzay sakinleri ne kadar büyük?") cevap vermekten kaçınması sağlanmıştır.
 
 ---
 
 ## 5. Web Arayüzü & Product Kılavuzu
 
 ### Çalışma Akışı ve Test Yöntemi:
-1. **Geliştirme:** Tüm RAG çekirdek kodları Google Colab Not Defteri'nde (`gemini_rag_seyahat_chatbot.ipynb`) çalıştırılmıştır.
-2. **Web Arayüzü:** Streamlit kullanılarak web arayüzü oluşturulmuş ve `localtunnel` ile canlı linke çıkarılmıştır.
-3. **Test Yöntemi:** Web arayüzündeki kutuya soru sorulduğunda, chatbot anında cevap verir.
+
+* **Geliştirme:** Tüm RAG çekirdek kodları Google Colab Not Defteri'nde (`gemini_rag_seyahat_chatbot.ipynb`) çalıştırılmıştır.
+* **Web Arayüzü:** Streamlit kullanılarak web arayüzü oluşturulmuş ve `localtunnel` ile canlı linke çıkarılmıştır.
+* **Test Yöntemi:** Web arayüzündeki kutuya soru sorulduğunda, RAG sistemi anında cevap verir (LLM İskeleti, bulunan kaynak metni formatlayarak gösterir).
 
 **Proje Canlı Linki (Deploy Linki):**
 **[Travel RAG Chatbot](https://travelragchatbot.loca.lt)**
@@ -48,4 +49,4 @@ Proje, **LangChain** kütüphanesi üzerine kurulmuş standart bir RAG mimarisin
 ### Çalışma Kılavuzu
 
 * **Colab Notebook:** Projenin tamamı `gemini_rag_seyahat_chatbot.ipynb` dosyasında bulunabilir.
-* **API Anahtarı:** Projenin nihai sürümü (Embeddings ve LLM iskeleti) **herhangi bir harici API anahtarı gerektirmeden** çalışmaktadır.
+* **API Anahtarı:** Projenin nihai sürümü (Embeddings ve LLM İskeleti) **herhangi bir harici API anahtarı gerektirmeden** çalışmaktadır.
