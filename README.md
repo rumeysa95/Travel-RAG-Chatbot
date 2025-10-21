@@ -37,7 +37,11 @@ Proje, LangChain kütüphanesi üzerine kurulmuş standart bir RAG mimarisini ta
 
 ### Web Linkiniz (Deploy Linki)
 
-* **[BU KISIM DAHA SONRA DOLDURULACAKTIR]**
+* **[5. Web Arayüzü & Ürün Kılavuzu
+
+Web Linkiniz (Deploy Linki)
+
+Proje Canlı Linki: [Travel RAG Chatbot](https://travelragchatbot.loca.lt)]**
 
 ### Çalışma Kılavuzu
 
